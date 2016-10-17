@@ -1,0 +1,37 @@
+config.dataset.base.dir,config.dataset.name,config.vns.type,config.vns.neighborhood.size.max,config.vns.neighborhood.type,config.vns.skewedparam,config.localSearch.type,config.localSearch.neighborhood.type,config.localSearch.neighborhood.size.max,config.mesure.type,config.image.precision,config.stopping.type,config.stopping.iterations,config.stopping.limit
+datasets,a1,GeneralVNS,2,ImaginaryCentroid,0.1,VND,ClosestCluster,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,a1,GeneralVNS,2,ImaginaryCentroid,0.1,VND,ClosestCluster,2,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,a1,GeneralVNS,2,ImaginaryCentroid,0.1,VND,ClosestCluster,3,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,a1,GeneralVNS,3,ImaginaryCentroid,0.1,VND,ClosestCluster,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,a1,GeneralVNS,3,ImaginaryCentroid,0.1,VND,ClosestCluster,2,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,a1,GeneralVNS,3,ImaginaryCentroid,0.1,VND,ClosestCluster,3,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,a1,BasicVNS,2,ImaginaryCentroid,0.1,FindFirstImprovement,ImaginaryCentroid,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,a1,BasicVNS,2,ImaginaryCentroid,0.1,FindBestNeighbor  ,ImaginaryCentroid,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,a1,BasicVNS,3,ImaginaryCentroid,0.1,FindFirstImprovement,ImaginaryCentroid,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,a1,BasicVNS,3,ImaginaryCentroid,0.1,FindBestNeighbor  ,ImaginaryCentroid,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s1,GeneralVNS,2,ImaginaryCentroid,0.1,VND,ClosestCluster,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s1,GeneralVNS,2,ImaginaryCentroid,0.1,VND,ClosestCluster,2,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s1,GeneralVNS,2,ImaginaryCentroid,0.1,VND,ClosestCluster,3,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s1,GeneralVNS,3,ImaginaryCentroid,0.1,VND,ClosestCluster,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s1,GeneralVNS,3,ImaginaryCentroid,0.1,VND,ClosestCluster,2,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s1,GeneralVNS,3,ImaginaryCentroid,0.1,VND,ClosestCluster,3,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s1,BasicVNS,2,ImaginaryCentroid,0.1,FindFirstImprovement,ImaginaryCentroid,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s1,BasicVNS,2,ImaginaryCentroid,0.1,FindBestNeighbor  ,ImaginaryCentroid,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s1,BasicVNS,3,ImaginaryCentroid,0.1,FindFirstImprovement,ImaginaryCentroid,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s1,BasicVNS,3,ImaginaryCentroid,0.1,FindBestNeighbor  ,ImaginaryCentroid,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s2,GeneralVNS,2,ImaginaryCentroid,0.1,VND,ClosestCluster,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s2,GeneralVNS,2,ImaginaryCentroid,0.1,VND,ClosestCluster,2,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s2,GeneralVNS,2,ImaginaryCentroid,0.1,VND,ClosestCluster,3,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s2,GeneralVNS,3,ImaginaryCentroid,0.1,VND,ClosestCluster,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s2,GeneralVNS,3,ImaginaryCentroid,0.1,VND,ClosestCluster,2,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s2,GeneralVNS,3,ImaginaryCentroid,0.1,VND,ClosestCluster,3,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s2,BasicVNS,2,ImaginaryCentroid,0.1,FindFirstImprovement,ImaginaryCentroid,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s2,BasicVNS,2,ImaginaryCentroid,0.1,FindBestNeighbor  ,ImaginaryCentroid,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s2,BasicVNS,3,ImaginaryCentroid,0.1,FindFirstImprovement,ImaginaryCentroid,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s2,BasicVNS,3,ImaginaryCentroid,0.1,FindBestNeighbor  ,ImaginaryCentroid,1,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,a1,GeneralVNS,2,ImaginaryCentroid,0.1,VND,ClosestCluster,10,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,a1,GeneralVNS,3,ImaginaryCentroid,0.1,VND,ClosestCluster,10,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s1,GeneralVNS,2,ImaginaryCentroid,0.1,VND,ClosestCluster,10,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s1,GeneralVNS,3,ImaginaryCentroid,0.1,VND,ClosestCluster,10,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s2,GeneralVNS,2,ImaginaryCentroid,0.1,VND,ClosestCluster,10,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001
+datasets,s2,GeneralVNS,3,ImaginaryCentroid,0.1,VND,ClosestCluster,10,DistanceToCentroidSum,1,IterationsUnchanged,20,0.0001

@@ -1,0 +1,16 @@
+config.dataset.base.dir=datasets
+config.dataset.name=birch1
+config.vns.type=GeneralVNS
+config.vns.neighborhood.size.coef=0.03
+config.vns.neighborhood.type=ImaginaryCentroid
+config.vns.skewedparam=0.1
+config.localSearch.type=FindFirstImprovement
+config.localSearch.neighborhood.type=ClosestCluster
+config.localSearch.neighborhood.size.coef=0.02
+config.mesure.type=DistanceToCentroidSum
+#config.mesure.type=WithinClusterPairsOfPointDustances
+#config.mesure.type=AvargeSilhouettes
+config.image.precision=4
+config.stopping.type=IterationsUnchanged
+config.stopping.iterations=20
+config.stopping.limit=0.0001

@@ -1,0 +1,7 @@
+config.dataset.name,config.vns.type,config.vns.neighborhood.size.max,config.vns.neighborhood.type,config.vns.skewedparam,config.localSearch.type,config.localSearch.neighborhood.type,config.localSearch.neighborhood.size.max,config.mesure.type,config.stopping.type,config.stopping.iterations,config.stopping.limit
+glass,ReducedVNS,1,ImaginaryCentroid,0.1,FindFirstImprovement,ImaginaryCentroid,1,DistanceToCentroidSum,Iterations,20,0.0001
+iris,GeneralVNS,2,,0.9,FindBestNeighbor,ClosestCluster,2,IntraInterDistances,IterationsUnchanged,,0.001
+vowel,BasicVNS,3,,0.99,VND,,3,WithinClusterPairsOfPointDustances,IterationsSmallImprovement,,0.0005
+wine,SkewedVNS,4,,0.01,,,4,,,,
+,,6,,0.001,,,6,,,,
+,,8,,,,,8,,,,
